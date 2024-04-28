@@ -22,12 +22,12 @@ namespace blackjack
 
         public void MainGame(int playerCount, int dilerCount, string playerName)
         {
-
+            Console.Clear();
             Console.WriteLine($"У {playerName} сейчас: {playerCount} очков");
             Console.WriteLine($"У соперника сейчас: {dilerCount} очков");
 
             Console.WriteLine("Нажмите любую клавишу, чтобы начать раздачу");
-            Console.ReadKey();
+            Console.ReadKey(true);
         }
 
         public void CurrentCount(string playerName, int playerCount)
@@ -41,7 +41,7 @@ namespace blackjack
 
             while (true)
             {
-                var key = Console.ReadKey().Key;
+                var key = Console.ReadKey(true).Key;
                 Console.WriteLine();
 
                 if (key == ConsoleKey.N)
@@ -76,8 +76,23 @@ namespace blackjack
                 Console.WriteLine($"Победил {playerName}");
                 Environment.Exit(0);
             }
-
             
+        }
+
+        public void FinalScore(int playerCount, int dilerCount, string playerName)
+        {
+            if (Math.Abs(21 - playerCount) < Math.Abs(21 - dilerCount))
+            {
+                Console.WriteLine($"{playerName} победил с очками {playerCount}");
+            }
+            else if (Math.Abs(21 - playerCount) > Math.Abs(21 - dilerCount))
+            {
+                Console.WriteLine($"Дилер победил с очками {dilerCount}");
+            }
+            else
+            {
+                Console.WriteLine($"Ничья. {playerName} и дилер имеют одинаковое количество очков: {playerCount}");
+            }
         }
     }
 }

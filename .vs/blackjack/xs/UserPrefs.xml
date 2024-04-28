@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{CBB1F462-1E97-44EC-B104-6F9F9C312792}|Default">
   <MonoDevelop.Ide.ItemProperties.blackjack PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="blackjack/Input.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="blackjack/Deck.cs">
     <Files>
-      <File FileName="blackjack/Program.cs" Line="38" Column="39" />
-      <File FileName="blackjack/Input.cs" Line="53" Column="1" />
-      <File FileName="blackjack/Deck.cs" />
+      <File FileName="blackjack/Program.cs" Line="16" Column="37" />
+      <File FileName="blackjack/Input.cs" />
+      <File FileName="blackjack/Deck.cs" Line="92" Column="34" />
       <File FileName="blackjack/Units.cs" />
     </Files>
     <Pads>
@@ -12,7 +12,7 @@
         <State name="__root__">
           <Node name="blackjack" expanded="True">
             <Node name="blackjack" expanded="True">
-              <Node name="Input.cs" selected="True" />
+              <Node name="Deck.cs" selected="True" />
             </Node>
           </Node>
         </State>

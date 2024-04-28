@@ -41,15 +41,23 @@ namespace blackjack
 
             gameDeck.FirstDilerDraw(ref dilerCount);
 
+            input.CurrentCount("Diler", dilerCount);
+
             while (dilerCount < 21)
             {
                 if (dilerCount < 17)
                 {
                     gameDeck.DilerDraw(ref dilerCount);
                 }
+                else
+                {
+                    break;
+                }
             }
 
             input.GameOver(playerCount, dilerCount, playerName);
+
+            input.FinalScore(playerCount, dilerCount, playerName);
         }
     }
 }
