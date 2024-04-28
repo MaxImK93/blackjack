@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{CBB1F462-1E97-44EC-B104-6F9F9C312792}|Default">
+  <MonoDevelop.Ide.ItemProperties.blackjack PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="blackjack/Input.cs">
+    <Files>
+      <File FileName="blackjack/Program.cs" Line="38" Column="39" />
+      <File FileName="blackjack/Input.cs" Line="53" Column="1" />
+      <File FileName="blackjack/Deck.cs" />
+      <File FileName="blackjack/Units.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="blackjack" expanded="True">
+            <Node name="blackjack" expanded="True">
+              <Node name="Input.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

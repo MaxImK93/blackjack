@@ -1,0 +1,6 @@
+/Users/maksimkasperovich/blackjack/blackjack/bin/Debug/blackjack.exe
+/Users/maksimkasperovich/blackjack/blackjack/bin/Debug/blackjack.pdb
+/Users/maksimkasperovich/blackjack/blackjack/obj/Debug/blackjack.csproj.AssemblyReference.cache
+/Users/maksimkasperovich/blackjack/blackjack/obj/Debug/blackjack.csproj.CoreCompileInputs.cache
+/Users/maksimkasperovich/blackjack/blackjack/obj/Debug/blackjack.exe
+/Users/maksimkasperovich/blackjack/blackjack/obj/Debug/blackjack.pdb
